@@ -13,7 +13,7 @@ Autoencoder (AE) is a type of neural network where the output layer has the same
 An autoencoder consists of three components:
 
 1. Encoder
-2. Bottleneck/Latent Space/Code/Embedded Space/Hidden Units
+2. Bottleneck/Latent Space
 3. Decoder
 
 ## Types of autoencoders
