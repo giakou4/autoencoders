@@ -1,4 +1,4 @@
-# Variational Autoencoder
+# Variational Autoencoder (VAE)
 
 ## Autoencoder
 
