@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/giakou4/autoencoders/main/bg.jpg">
+  <img src="https://raw.githubusercontent.com/giakou4/autoencoders/main/bg.png">
 </p>
 
 
