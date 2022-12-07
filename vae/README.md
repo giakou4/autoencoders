@@ -1,9 +1,5 @@
 # Variational Autoencoder
 
-Course website: http://pages.stat.wisc.edu/~sraschka/teaching/stat453-ss2021/
-
-GitHub repository: https://github.com/rasbt/stat453-deep-learning-ss21/tree/main/L17
-
 ## Autoencoder
 
 A regular Autoencoder (AE) minimizees squared error loss ```L = MSE(x, x') = ||x-x'||2 ^2 ```. Autoencoders are cool. But What if we want to "generate" images? What if we want to impose some constraints on the latent space? In our AE, we had no constraints on the latent space. 
@@ -77,4 +73,10 @@ We can give a sad person a smile by ``` z_new = z_orig + a * z_diff```.
 <p align="center">
   <img src="https://raw.githubusercontent.com/giakou4/autoencoders/main/vae/assets/lsa.png">
 </p>
+
+## More information
+
+Course website: http://pages.stat.wisc.edu/~sraschka/teaching/stat453-ss2021/
+
+GitHub repository: https://github.com/rasbt/stat453-deep-learning-ss21/tree/main/L17
 
