@@ -1,6 +1,7 @@
 # Autoencoders (AE)
 
 Course website: http://pages.stat.wisc.edu/~sraschka/teaching/stat453-ss2021/
+
 GitHub repository: https://github.com/rasbt/stat453-deep-learning-ss21/tree/main/L16
 
 ## What are Autoencoders
