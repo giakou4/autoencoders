@@ -1,9 +1,5 @@
 # Autoencoders (AE)
 
-Course website: http://pages.stat.wisc.edu/~sraschka/teaching/stat453-ss2021/
-
-GitHub repository: https://github.com/rasbt/stat453-deep-learning-ss21/tree/main/L16
-
 ## What are Autoencoders
 
 Autoencoder (AE) is a type of neural network where the output layer has the same dimensionality as the input layer. An AE replicates the data from the input to the output in an **unsupervised** manner.
@@ -69,3 +65,8 @@ non-linear activation functions and minimize the MSE, this is very similar to PC
 
 7. **Image Inpainting**: Image Inpainting is a task of reconstructing missing regions in an image.
 
+## More Information
+
+Course website: http://pages.stat.wisc.edu/~sraschka/teaching/stat453-ss2021/
+
+GitHub repository: https://github.com/rasbt/stat453-deep-learning-ss21/tree/main/L16
