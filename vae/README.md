@@ -74,9 +74,8 @@ We can give a sad person a smile by ``` z_new = z_orig + a * z_diff```.
   <img src="https://raw.githubusercontent.com/giakou4/autoencoders/main/vae/assets/lsa.png">
 </p>
 
-## More information
+## More Information
 
 Course website: http://pages.stat.wisc.edu/~sraschka/teaching/stat453-ss2021/
 
 GitHub repository: https://github.com/rasbt/stat453-deep-learning-ss21/tree/main/L17
-
