@@ -14,9 +14,10 @@ class Reshape(nn.Module):
 class Trim(nn.Module):
     def __init__(self, *args):
         super().__init__()
+        self.size = args
 
     def forward(self, x):
-        return x[:, :, :28, :28]
+        return x[:, :, :self.size, :self.size]
 
 
 class VariationalAutoencoder1(nn.Module):
@@ -48,7 +49,7 @@ class VariationalAutoencoder1(nn.Module):
                 nn.ConvTranspose2d(64, 32, stride=(2, 2), kernel_size=(3, 3), padding=0),                
                 nn.LeakyReLU(0.01),
                 nn.ConvTranspose2d(32, 1, stride=(1, 1), kernel_size=(3, 3), padding=0), 
-                Trim(),  # 1x29x29 -> 1x28x28
+                Trim(28),  # 1x29x29 -> 1x28x28
                 nn.Sigmoid()
                 )
 
@@ -129,7 +130,7 @@ class VariationalAutoencoder2(nn.Module):
                 #
                 nn.ConvTranspose2d(32, 3, stride=2, kernel_size=3, padding=1),
                 #
-                Trim(),  # 3x129x129 -> 3x128x128
+                Trim(128),  # 3x129x129 -> 3x128x128
                 nn.Sigmoid()
                 )
 
