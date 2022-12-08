@@ -17,7 +17,7 @@ class Trim(nn.Module):
         self.size = args
 
     def forward(self, x):
-        return x[:, :, :self.size, :self.size]
+        return x[:, :, :self.size[0], :self.size[0]]
 
 
 class VariationalAutoencoder1(nn.Module):
