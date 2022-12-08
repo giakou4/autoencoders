@@ -21,7 +21,7 @@ class Trim(nn.Module):
 
 
 class VariationalAutoencoder1(nn.Module):
-    """ For use in MNIST Dataset """
+    """ For use in MNIST Dataset, latent space=2 """
     def __init__(self):
         super().__init__()
         
@@ -74,7 +74,7 @@ class VariationalAutoencoder1(nn.Module):
 
 class VariationalAutoencoder2(nn.Module):
     """ 
-    For use in CelebA Dataset 
+    For use in CelebA Dataset, latent space=200 
     More sophisticated encoder & decoder:
         Encoder: Conv2d-BN-LReLU-Dropout2d
         Decoder: ConvTransp2d-BN-LReLU-Dropout2d
@@ -157,7 +157,7 @@ class VariationalAutoencoder2(nn.Module):
 
 class VariationalAutoencoder3(nn.Module):
     """ 
-    For use in CelebA Dataset 
+    For use in CelebA Dataset, latent space=200 
     More sophisticated encoder & decoder:
         Encoder: Conv2d-BN-LReLU-Dropout2d (same as above)
         Decoder: UpsamplingNN-Conv2d-BN-LReLU-Dropout2d (use Nearest Neighbor upsample)
